@@ -114,7 +114,7 @@ header nav ul li a:hover {
 }
 
 .skill p {
-    font-size: 16px;
+    font-size: 20px;
     color: #666;
 }
 
@@ -179,7 +179,7 @@ header nav ul li a:hover {
 }
 
 .project p {
-    font-size: 13px;
+    font-size: 20px;
     color: #666;
     margin: 0;
     display: -webkit-box;
@@ -301,12 +301,12 @@ hr.solid {
 
 .timeline-item:nth-child(odd) .timeline-content {
     margin-left: auto;
-    margin-right: 20px;
+    margin-right: 25px;
     text-align: right;
 }
 
 .timeline-item:nth-child(even) .timeline-content {
-    margin-left: 20px;
+    margin-left: 10px;
     margin-right: auto;
     text-align: left;
 }
@@ -359,7 +359,7 @@ hr.solid {
 }
 
 .timeline-content .description {
-    font-size: 16px;
+    font-size: 20px;
     color: #666;
     line-height: 1.6;
 }
@@ -367,7 +367,8 @@ hr.solid {
             text-align: center;        
             font-size: 16px;
  	    opacity: 0.4;
-        }
+ }
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .timeline::before {
